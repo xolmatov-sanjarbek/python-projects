@@ -10,3 +10,6 @@ This repo contains a collection of my small projects written in Python. Each pro
 
 3. Expense Tracker
     A program that records daily expenses and saves them to a CSV file.
+
+4. Quiz Game
+    How many questions can you answer correctly?
