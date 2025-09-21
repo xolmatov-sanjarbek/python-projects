@@ -7,3 +7,6 @@ This repo contains a collection of my small projects written in Python. Each pro
 
 2. Weather App
     This app tells you the weather in your area. More info in the code.
+
+3. Expense Tracker
+    A program that records daily expenses and saves them to a CSV file.
