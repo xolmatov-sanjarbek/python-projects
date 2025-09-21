@@ -1,3 +1,10 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+answers = os.getenv("answers")
+
 quizzes = {
     "What is the chemical element with the symbol Fe?":[
         "A. Iron",
@@ -31,7 +38,6 @@ quizzes = {
     ]
 }
 
-answers = ['A', 'D', 'B', 'A', 'C']
 total = 0
 i = -1
 
