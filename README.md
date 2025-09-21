@@ -13,3 +13,6 @@ This repo contains a collection of my small projects written in Python. Each pro
 
 4. Quiz Game
     How many questions can you answer correctly?
+
+5. Web Scraper
+    This scraper find information from Wikipedia
