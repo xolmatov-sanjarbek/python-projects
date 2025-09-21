@@ -3,18 +3,18 @@ from dotenv import load_dotenv
 import requests
 
 load_dotenv()
-
 api_key = os.getenv("API_KEY")
 
-
-
 def get_weather(city):
+    """
+    A simple weather app that tells you weather in your area.
+    """
     base_url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
     responce = requests.get(base_url)
     
     return responce.json()
 
-city = "Tashkent"
+city = input("Enter your city name: ")
 info = get_weather(city)
 
 print(f"City: {info['name']}")
